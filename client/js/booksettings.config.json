@@ -1,0 +1,21 @@
+{
+  "font": [
+    {"value": "Helvetica Neue", "name": "黑体"},
+    {"value": "Helvetica Neue", "name": "宋体"},
+    {"value": "Helvetica Neue", "name": "楷体"},
+    {"value": "Helvetica Neue", "name": "幼圆"}
+  ]
+  ,
+  "leading": [2, 4, 6, 8]
+  ,
+  "background": [
+    {"color": "#ffffff", "name": "白色"},
+    {"color": "#FAF9DE", "name": "杏仁黄"},
+    {"color": "#FFF2E2", "name": "秋叶褐"},
+    {"color": "#E3EDCD", "name": "青草绿"},
+    {"color": "#DCE2F1", "name": "海天蓝"},
+    {"color": "#EAEAEF", "name": "极光灰"}
+  ]
+  ,
+  "voltiType": [0, 1, 2, 3]
+}

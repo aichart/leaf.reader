@@ -1,0 +1,93 @@
+[
+  {
+    "name": "🎉无错小说网",
+    "url": "http://www.xquledu.com",
+    "enabled": true,
+    "bookInfoRule": {
+      "intro": "#content > dd:nth-child(7) > p:nth-child(3)",
+      "chapteListsUrl": "#content > dd:nth-child(3) > div:nth-child(2) > p.bookclick > a.read@href"
+    },
+    "contentRule": {
+      "content": "#contents"
+    },
+    "searchRule": {
+      "bookList": "#main > div.c_row",
+      "name": "div:nth-child(2) > div:nth-child(1) > span > a",
+      "author": "div:nth-child(2) > div:nth-child(2) > span:nth-child(2)",
+      "kind": "div:nth-child(2) > div:nth-child(2) > span:nth-child(4)",
+      "bookUrl": "div:nth-child(2) > div:nth-child(1) > span > a@href",
+      "coverUrl": "div.fl > a > img@src",
+      "lastChapter": "div:nth-child(2) > div:nth-child(4) > span:nth-child(2) > a",
+      "wordCount": "div:nth-child(2) > div:nth-child(2) > span:nth-child(6)"
+    },
+    "chapterRule": {
+      "chapterList": "#list > dd",
+      "name": "a",
+      "url": "a@href"
+    },
+    "searchUrl": "https://www.xquledu.com/modules/article/search.php?action=search&searchtype=all&searchkey={{key}}",
+    "weight": 0
+  }
+  ,
+  {
+    "name": "💰飞卢",
+    "url": "https://wap.faloo.com",
+    "bookInfoRule": {
+      "name": "div.infoLayout > div.clearfix.position_relative > ul > li.row1.display_flex_center2 > h1",
+      "author": "div.infoLayout > div.clearfix.position_relative > ul > li.color999 > a:nth-child(2)",
+      "intro": "#novel_intro",
+      "kind": "div.infoLayout > div.clearfix.position_relative > ul > li.color999 > a:nth-child(4)",
+      "chapteListsUrl": "#layoutAll > div > div.catalogLayout.itemLayout > div.btnLayout.display_flex_between > a:nth-child(2)@href"
+    },
+    "contentRule": {
+      "content": "div.nodeList.clearfix > div.nodeContent"
+    },
+    "searchRule": {
+      "author": ".show_author > a",
+      "bookList": ".book_vessel",
+      "bookUrl": ".show_title2 > a@href",
+      "coverUrl": "img@src",
+      "intro": ".show_desc2 > p",
+      "name": ".show_title2 > a"
+    },
+    "chapterRule": {
+      "chapterList": "#layoutAll > div.layoutw3 > div.nodeListLayout > div > ul > li",
+      "name": "a",
+      "url": "a@href"
+    },
+    "searchUrl": "https://wap.faloo.com/category/0/1.html?k={{key}}",
+    "weight": 0
+  }
+  ,
+  {
+    "name": "🎉笔趣网",
+    "url": "http://www.biquw.com",
+    "enabled": true,
+    "bookInfoRule": {
+      "name": "#xinxi > div.xx > ul > h1 || #info > h1",
+      "author": "#xinxi > div.xx > ul > li:nth-child(3) > a || #info > div.options > span.item.red",
+      "intro": "#xinxi > div.jianjie.bk || #info > h3",
+      "coverUrl": "#xinxi > div.xsfm > img@src || #main > div:nth-child(1) > div.book_info > div.pic > img@src",
+      "kind": "#xinxi > div.xx > ul > li:nth-child(2) > a"
+    },
+    "contentRule": {
+      "content": "#htmlContent || #nr"
+    },
+    "searchRule": {
+      "author": "li > p.s3",
+      "bookList": "#content > div.toplist > ul > li",
+      "bookUrl": "p.s1 > a@href",
+      "lastChapter": "p.s2 > a",
+      "name": "p.s1 > a",
+      "updateTime": "p.s6",
+      "wordCount": "p.s4"
+    },
+    "chapterRule": {
+      "chapterList": "#main > div:nth-child(5) > div.book_list > ul > li || #zjlb > ul > li",
+      "name": "a",
+      "url": "a@href"
+    },
+    "searchUrl": "http://www.biquw.com/modules/article/search.php?action=login&searchkey={{key}}",
+    "weight": 0
+  }
+]
